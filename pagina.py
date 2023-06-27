@@ -18,7 +18,7 @@ app = Flask(__name__)
 @app.route('/')#inicio
 def pagina1():
     return render_template("pagina_principal.html")
-@app.route('/2')#inicio de secion
+@app.route('https://pagina-encuesta.onrender.com/2')#inicio de secion
 def pagina2():
     return render_template("seccion_cuest.html")
 
