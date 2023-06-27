@@ -56,7 +56,7 @@ def pagina4():
         registros.update({id_encuesta : nueva_encuesta})
         coleccion.insert_one(nueva_encuesta)
         print(nueva_encuesta)
-        return redirect('http://localhost:5000/')
+        return redirect('https://pagina-encuesta.onrender.com/')
 ##############################################################################################################################
 @app.route('/5')#sleccion de la graficacion de los datos 
 def pagina5():
@@ -107,7 +107,7 @@ def subir_comentario():
             "queja" : queja
         }
         coleccion4.insert_one(nueva_queja)
-        return redirect('http://localhost:5000/')
+        return redirect('https://pagina-encuesta.onrender.com/')
 ##########################################################################################################################################
 if __name__ == '__main__':
    app.run()
