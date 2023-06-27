@@ -31,7 +31,6 @@ Markdown==3.4.3
 MarkupSafe==2.1.2
 matplotlib-inline==0.1.6
 ml-dtypes==0.1.0
-mysql-connector-python==8.0.33s
 oauthlib==3.2.2
 opt-einsum==3.3.0
 packaging==23.1
