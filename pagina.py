@@ -1,6 +1,6 @@
 #mi pagina web flask 
 from flask import *
-s
+
 app = Flask(__name__)
 
 
