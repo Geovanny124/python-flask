@@ -1,17 +1,6 @@
 #mi pagina web flask 
 from flask import *
-import pymongo
-from pymongo import MongoClient
-from pymongo.mongo_client import MongoClient
-MONGO_HOST="localhost"
-MONGO_PUERTO="27017"
-MONGO_URL="mongodb+srv://geovannypozos452:<15987321>@cluster0.w2soknn.mongodb.net/"
-cliente = MongoClient(MONGO_URL)
-db = cliente.flask
-coleccion=db.videojuegos
-coleecion2=db.materias
-coleccion3=db.alimentos
-coleccion4=db.quejas
+s
 app = Flask(__name__)
 
 
